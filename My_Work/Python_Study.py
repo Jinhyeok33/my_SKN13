@@ -167,6 +167,9 @@ our_score, 실제 성적이 번호 순서대로 담긴 정수 리스트 score_li
 실제 성적과 동일하다면 "Same"을, 다르다면 "Different"를 순서대로 
 리스트에 담아 return하는 함수입니다. solution 함수가 올바르게 작동하도록
 한 줄을 수정해 주세요.
+numbers = [3, 5, 8, 7]
+our_score = [87, 87, 56, 88]
+score_list = [점수, 점수, 점수, ...]
 
 제한사항
 1 ≤ numbers의 길이 = our_score의 길이 ≤ 10
@@ -317,6 +320,19 @@ wallet	bill	result
 한 줄을 수정해 solution 함수를 완성해 주세요. 가뭄이 끝날때 까지 저수지의 
 물이 남아 있다면 -1을 return합니다.
 
+storage 만큼 물이 차있어.
+전 달에 usage 만큼 사용했어. 이후 usage 변화량을 change리스트로 줌
+몇 달 뒤에 물이 부족해지는지
+
+def solution(storage, usage, changes)
+    storage -= usage; month = 1
+    for i, change in enumerate(changes):
+        usage = usage*(change+100)/100
+        storage -= usage
+        if storage < 0: 
+            return i+1
+    return -1
+
 제한사항
 1,000 ≤ storage ≤ 1,000,000
 500 ≤ usage ≤ 30,000
@@ -356,7 +372,7 @@ n개월 뒤	0 (이번 달)	1 (다음 달)	2	3	4	5	6	7	8	9
 최대한 겹쳐쌓는 방식으로 창고를 정리하기로 했습니다. 선빈이의 창고에 
 들어있는 물건의 이름과 개수는 리스트 형태로 주어지며, 한 칸에 겹쳐질 수
 있는 물건의 개수에는 제한이 없다고 가정합니다.
-예를 들어 창고의 각 칸에 담겨있는 물건의 이름이storage = 
+예를 들어 창고의 각 칸에 담겨있는 물건의 이름이 storage = 
 ["pencil", "pencil", "pencil", "book"], 각 물건의 개수가 
 num = [2, 4, 3, 1]이라면 
 연필과 책을 한 칸에 각각 겹쳐 쌓아 간단하게 clean_storage = 
