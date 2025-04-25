@@ -13,10 +13,10 @@ sklearn.preprocessing : 데이터 전처리를 위한 라이브러리
 - 수치형 데이터의 경우 scaling을 위해 preprocessing.StandardScaler or .MinMaxScaler 사용
 - np.where을 사용할수도 있음
 
-sklearn.model_selection : 데이터 분리
+sklearn.model_selection : 데이터 분리 / 하이퍼 파라미터 
 - train_test_split을 두 번 진행하여 validation 까지 나누는 Hold_Out 방식
 - Kfold 객체의 split 메소드를 이용하여 나누는 회귀의 Kfold / 분류의 StratifiedKfold
-- 
+- GridSearchCV / RandomizedSearchCV 를 통한 하이퍼 파라미터 최적화
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
