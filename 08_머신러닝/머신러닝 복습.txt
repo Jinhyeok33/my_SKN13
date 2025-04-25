@@ -1,0 +1,37 @@
+sklearn.datasets : 딕셔너리 구조의 Bunch 클래스 데이터 셋 객체
+-> datasets.keys() 를 통해 데이터 구조의 여러 정보를 얻어올 수 있다.
+- datasets.data/target : X, y 값 
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+sklearn.impute : 대체값을 넣어주기 위한 라이브러리
+- 결측치의 경우 dropna() or sklearn.impute.~Imputer 를 이용한 값 대체
+- 이상치의 경우 표준편차, 분위수를 기준으로 제거 or 대체
+
+sklearn.preprocessing : 데이터 전처리를 위한 라이브러리
+- 범주형 데이터의 경우 string type을 제거해주기 위해 preprocessing.LabelEncoder or .OneHotEncoder 사용
+- 수치형 데이터의 경우 scaling을 위해 preprocessing.StandardScaler or .MinMaxScaler 사용
+- np.where을 사용할수도 있음
+
+sklearn.model_selection : 데이터 분리
+- train_test_split을 두 번 진행하여 validation 까지 나누는 Hold_Out 방식
+- Kfold 객체의 split 메소드를 이용하여 나누는 회귀의 Kfold / 분류의 StratifiedKfold
+- 
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+sklearn.{model} : 트리형 등 머신러닝 모델
+- fit 을 통해 데이터를 학습시키며, predict 를 통해 예상 y 배열을 반환한다.
+- predict_proba 를 통해 분류 확률을 가져올수도 있다.
+    이를 통해 데이터를 직접 후처리해 줄 수도 있음.
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+sklearn.metrics : 평가를 위한 라이브러리
+Classifier
+- 각종 스코어를 바로 계산하는 함수 존재.
+- accuracy_score, f1_score, classification_report, confusion_matrix, ConfusionMatrixDisplay 등등
+- precision_recall_curve / PrecisionRecallDisplay / average_precision_score 등을 통해
+    각 precision과 recall 값 / 그 display 객체 / 그 평가 값을 가져올 수 있다.
+Regression
+- mean_sqaure_error, r2_score 등 존재
