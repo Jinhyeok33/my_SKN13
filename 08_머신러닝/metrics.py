@@ -94,7 +94,7 @@ def print_binary_classification_metrics(y, pred, proba=None, title=None):
         print("Average Precision:", average_precision_score(y, proba))
         print("ROC-AUC Score:", roc_auc_score(y, proba))
 
-def print_regression_metrcis(y, pred, title=None):
+def print_regression_metrics(y, pred, title=None):
     """회귀 평가지표를 출력하는 함수
     Args:
         y: ndarray - 정답 
