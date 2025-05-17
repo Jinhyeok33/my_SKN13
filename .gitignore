@@ -1,3 +1,9 @@
+# Datasets
+09_딥러닝_기본/data/
+09_딥러닝_기본/datasets/
+09_딥러닝_기본/oxfordpet/
+09_딥러닝_기본/images.tar.gz
+
 api_key.json
 # Byte-compiled / optimized / DLL files
 __pycache__/ 
