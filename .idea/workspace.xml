@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a303c09b-1a8e-4714-b486-48064528dde1" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/07_지도학습_SVM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/07_지도학습_SVM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/08_지도학습_최근접이웃.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/08_지도학습_최근접이웃.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/09_결정트리와 랜덤포레스트.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/09_결정트리와 랜덤포레스트.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/10_앙상블_부스팅.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/10_앙상블_부스팅.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/11_최적화-경사하강법.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/11_최적화-경사하강법.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_머신러닝/12_선형모델_선형회귀.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/08_머신러닝/12_선형모델_선형회귀.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/01_딥러닝 개요.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/01_딥러닝 개요.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/04_첫번째 딥러닝-MLP 구현.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/04_첫번째 딥러닝-MLP 구현.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/05_Universal_Approximation_Theorem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/05_Universal_Approximation_Theorem.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/05_신경망 구조.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/05_신경망 구조.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/06_Dataset과 DataLoader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/06_Dataset과 DataLoader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/07_모델저장_문제 유형별 모델 생성.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/07_모델저장_문제 유형별 모델 생성.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_딥러닝_기본/08_2_딥러닝모델_성능개선_예제.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/09_딥러닝_기본/08_2_딥러닝모델_성능개선_예제.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Work/About_Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/My_Work/About_Python.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2xDeozq9yng6SjymnfZQdaQCDeP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a303c09b-1a8e-4714-b486-48064528dde1" name="변경" comment="" />
+      <created>1747477251329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747477251329</updated>
+    </task>
+    <servers />
+  </component>
+</project>
