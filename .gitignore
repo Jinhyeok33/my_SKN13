@@ -4,6 +4,8 @@
 09_딥러닝_기본/oxfordpet/
 09_딥러닝_기본/images.tar.gz
 10_NLP_전처리/data/
+11_NLP_Embedding/data/
+11_NLP_Embedding/datasets/
 
 api_key.json
 # Byte-compiled / optimized / DLL files
