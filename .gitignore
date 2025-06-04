@@ -6,6 +6,9 @@
 10_NLP_전처리/data/
 11_NLP_Embedding/data/
 11_NLP_Embedding/datasets/
+.env
+12_Huggingface_lib/data/
+
 
 api_key.json
 # Byte-compiled / optimized / DLL files
