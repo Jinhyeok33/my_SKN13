@@ -10,6 +10,15 @@
 12_Huggingface_lib/data/
 data/
 datasets/
+.txt
+.zip
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Vector Store
+vector_store/
 
 api_key.json
 # Byte-compiled / optimized / DLL files
