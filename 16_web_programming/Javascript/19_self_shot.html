@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <!-- <body>
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="container text-center bg-light p-5 rounded shadow position-relative" style="height: 300px;">
+            <input type="text" class="form-control mb-3" placeholder="username"><br>
+            <input type="text" class="form-control mb-3" placeholder="password"><br>
+            <button id="loginBtn" class="btn btn-primary position-absolute">로그인</button>
+        </div>
+        </div>
+
+        <script>
+        const button = document.getElementById("loginBtn");
+        const container = button.parentElement;
+
+        button.addEventListener("mouseover", () => {
+            const containerRect = container.getBoundingClientRect();
+            const btnWidth = button.offsetWidth;
+            const btnHeight = button.offsetHeight;
+
+            // 무작위 위치 계산 (컨테이너 안에서)
+            const maxLeft = container.offsetWidth - btnWidth;
+            const maxTop = container.offsetHeight - btnHeight;
+
+            const randomLeft = Math.random() * maxLeft;
+            const randomTop = Math.random() * maxTop;
+
+            button.style.left = `${randomLeft}px`;
+            button.style.top = `${randomTop}px`;
+        });
+        </script>
+    </body> -->
+    <body>
+        <div class="container mt-5">
+        <!-- 회원 가입창 -->
+            <form name="form1" action="/add" onsubmit="return checkSub()">
+                <input type="text" class="border" placeholder="id" name="id" id="id"><br>
+                <input type="text" class="border" placeholder="password" name="pwd" id="pwd"><br>
+                <input type="num" class="border" placeholder="phone number" name="phone" id="phone"><br>
+                <input type="submit" value="회원가입" class="btn btn-primary">
+            </form>
+        </div>
+        <script>
+        function checkSub() {
+            // DOM으로 접근_by name
+            let id = document.form1.id.value;
+            // CSS로 접근_by tag
+            let pwd = document.querySelector("div>form>input:nth-child(3)");
+            if (pwd.value.length < 4) {
+                                alert("비밀번호는 4자리 이상입니다.");
+                                pwd.focus();
+                                return false;
+                                }
+            // id로 접근_by id
+            let phone = document.getElementById("phone");
+            if (phone.value !== 11) {
+                                    alert("휴대폰 번호는 11자리입니다.");
+                                    phone.focus();
+                                    return false;
+                                    }
+            alert("회원가입 성공");
+            return true;
+        }
+        </script>
+    </body>
+</html>

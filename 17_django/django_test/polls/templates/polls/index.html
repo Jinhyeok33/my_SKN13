@@ -1,0 +1,17 @@
+<!-- "index" 페이지에 해당하는 템플릿을 만들거야 -->
+<!-- 고유 앱마다 장고는 templates 폴더를 훑으며 템플릿을 찾을거야 -->
+<!-- 장고는 templates/ 하위를 훑을거기에 앱마다 구분해주기 위해 앱이름으로 하위 폴더 생성  -->
+
+<!-- "{% %}" 를 통해 조건문과 반복문을 구현 -->
+{% if question_list %}
+    <ul>
+        {% for question in question_list %}
+            <li>
+                <a href="/polls/{{ question.id }}/">
+                    {{ question.question_text }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No questions are available.</p>
+{% endif %}
+<!-- 변경된 template, view를 만들기 위한 템플릿, 은 view에서 받아야겠지? -->
